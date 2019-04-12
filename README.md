@@ -6,7 +6,7 @@ Kubesure intents to build a _insuretech_ platform.
 
 **0.1 features**  
 
-1. create new business apis'for to buy easyhealth product 
+1. create new business apis'for to buy esyhealth (u/w) and esytravel (stp) product 
     - premium  Go + Redis - Rest/Json
     - quote Node + Mongo  - Rest/Json
     - entity - party - Go + DB(?) GRPC  
