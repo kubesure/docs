@@ -7,11 +7,11 @@ Kubesure intents to build a _insuretech_ platform.
 **0.1 features**  
 
 1. create new business apis'for to buy esyhealth (stp) and esytravel (stp) product 
-    - premium  Go + Redis - Rest/Json
-    - quote Node + Mongo  - Rest/Json
-    - entity - party - Go + DB(?) GRPC  
-    - receipt - Go + Mongo Rest/Json
-    - policy - Go + Mysql    
+    - premium - Go + Redis - Rest/Json
+    - quote - Node + Mongo  - Rest/Json
+    - party - Go + Mongo - GRPC  
+    - receipt - Go + Mongo - ??
+    - policy - Go + Mysql - ??    
     - Generate policy PDF - Async Kakfa on policy issue
     - Send communication on SMS and Email (pdf) Async Kafka on policy issue
 2. Deploy apis in kubernetes 
@@ -26,13 +26,11 @@ Kubesure intents to build a _insuretech_ platform.
 
 **0.2 features** 
  
-1. Create UI.  
-2. Enhance model after 0.1 
-3. logging with fluentd and elastic for logging with fluentd as sidecar
-4. Post events to Kakfa for data analysis biz moments is TBD
-5. Kube ingress  
-6. Reinsurance
-7. refactor project template for polygot micro services
+1. Create UI with micro web deployment  
+2. Logging with fluentd and elastic 
+3. Post events to Kakfa for data analysis biz moments is TBD
+4. Kube ingress 
+5. Fix defects
 
 **0.3 Features** 
 
