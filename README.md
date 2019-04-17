@@ -10,7 +10,7 @@ Kubesure intents to build a _insuretech_ platform.
     - premium - Go + Redis - Rest/Json
     - quote - Node + Mongo  - Rest/Json
     - party - Go + Mongo - GRPC  
-    - receipt - Go + Mongo - ??
+    - receipt - Go + Mongo - Rest/Json
     - policy - Go + Mysql - ??    
     - Generate policy PDF - Async Kakfa on policy issue
     - Send communication on SMS and Email (pdf) Async Kafka on policy issue
