@@ -11,7 +11,7 @@ Kubesure intents to build a _insuretech_ platform.
     - quote - Node + Mongo  - Rest/Json
     - party - Go + Mongo - GRPC  
     - receipt - Go + Mongo - Rest/Json
-    - policy - Go + Mysql - ??    
+    - policy - Go + Mysql - Rest/Json
     - Generate policy PDF - Async Kakfa on policy issue
     - Send communication on SMS and Email (pdf) Async Kafka on policy issue
 2. Deploy apis in kubernetes 
