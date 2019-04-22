@@ -8,18 +8,18 @@ Kubesure intents to build a _insuretech_ platform.
 
 1. create new business apis'for to buy esyhealth (stp) and esytravel (stp) product 
     - [x] premium - Go + Redis - Rest/Json
-    - quote - Node + Mongo  - Rest/Json
-    - party - Go + Mongo - GRPC  
-    - receipt - Go + Mongo - Rest/Json
-    - policy - Go + Mysql - Rest/Json
-    - Generate policy PDF - Async Kakfa on policy issue
+    - [x] quote - Node + Mongo  - Rest/Json
+    - [x] party - Go + Mongo - GRPC  
+    - [x] receipt - Go + Mongo - Rest/Json
+    - [x] policy - Go + Mysql - Rest/Json
+    - [x] Generate policy PDF - Async Kakfa on policy issue
     - Send communication on SMS and Email (pdf) Async Kafka on policy issue
 2. Deploy apis in kubernetes 
     - Basic deployment no ingress other than kubernetes service
 3. Review 
-    - Enchance model for richness in biz and refactor
-    - fix issues 
-    - Refactor repeat until all test pass 
+    - [x]Enchance model for richness in biz and refactor
+    - [x] fix issues 
+    - [x] Refactor repeat until all test pass 
 4. Document architecture, design and code
 5. Create build script for all go services
 6. Update install and release notes 
