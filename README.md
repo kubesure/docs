@@ -17,7 +17,7 @@ Kubesure intents to build a _insuretech_ platform.
 2. Deploy apis in kubernetes 
     - Basic deployment no ingress other than kubernetes service
 3. Review 
-    - [x]Enchance model for richness in biz and refactor
+    - [x] Enchance model for richness in biz and refactor
     - [x] fix issues 
     - [x] Refactor repeat until all test pass 
 4. Document architecture, design and code
