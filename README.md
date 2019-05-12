@@ -2,7 +2,7 @@
 
 Why Kubesure?? For the lack of a better name and for the love of kubernetes. Project name will change until a cool sanskrit, greek or a latin name is christened. 
 
-Kubesure intents to build a _insuretech_ platform and will be contributed to Kubernetes as a real world example for learning. 
+Kubesure intents to build a _insuretech_ pay as you insurance product. A stable Kubesure will be contributed to Kubernetes as a real world example for learning. Pls join and spread knowledge. 
 
 
 **0.1 features**  
