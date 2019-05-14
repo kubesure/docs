@@ -13,10 +13,10 @@ Kubesure intents to build a _insuretech_ pay as you insurance product. Also, a s
     - [x] party - Go + Mongo - GRPC  
     - [x] receipt - Go + Mongo - Rest/Json
     - [x] policy - Go + Mysql - Rest/Json
-    - [x] Generate policy PDF - Async Kakfa on policy issue
+    - [] Generate policy PDF - Async Kakfa on policy issue
     - Send communication on SMS and Email (pdf) Async Kafka on policy issue
 2. Deploy apis in kubernetes 
-    - Basic deployment no ingress other than kubernetes service
+    - [x]Basic deployment no ingress other than kubernetes service
 3. Review 
     - [x] Enchance model for richness in biz and refactor
     - [x] fix issues 
@@ -27,18 +27,18 @@ Kubesure intents to build a _insuretech_ pay as you insurance product. Also, a s
 
 **0.2 features** 
  
-1. Create UI with micro web deployment  
-2. Logging with fluentd and elastic 
-3. Post events to Kakfa for data analysis biz moments is TBD
-4. Kube ingress 
-5. Fix defects
+[] Create UI with micro web deployment  
+[] Logging with fluentd and elastic 
+[] Pull events to Kakfa for data analysis biz moments is TBD
+[X] API Exposure to world through Kube ingress 
+[] Fix defects
 
 **0.3 Features** 
 
-1. Deploy on kubernetes with a service mesh  
-2. Prepare helm charts
-3. CI CD Pipeline
-4. API Exposure to world
+[] Deploy on kubernetes with a service mesh  
+[] Prepare helm charts
+[] CI CD Pipeline
+
 
 **0.4 Features**
 
