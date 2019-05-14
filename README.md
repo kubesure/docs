@@ -8,15 +8,15 @@ Kubesure intents to build a _insuretech_ pay as you insurance product. Also, a s
 **0.1 features**  
 
 1. create new business apis'for to buy esyhealth (stp) and esytravel (stp) product 
-    - [x] premium - Go + Redis - Rest/Json
-    - [x] quote - Node + Mongo  - Rest/Json
-    - [x] party - Go + Mongo - GRPC  
-    - [x] receipt - Go + Mongo - Rest/Json
-    - [x] policy - Go + Mysql - Rest/Json
-    - [] Generate policy PDF - Async Kakfa on policy issue
-    - Send communication on SMS and Email (pdf) Async Kafka on policy issue
+   - [x] premium - Go + Redis - Rest/Json
+   - [x] quote - Node + Mongo  - Rest/Json
+   - [x] party - Go + Mongo - GRPC  
+   - [x] receipt - Go + Mongo - Rest/Json
+   - [x] policy - Go + Mysql - Rest/Json
+   - [x] Generate policy PDF - Async Kakfa on policy issue
+   - [ ] Send communication on SMS and Email (pdf) Async Kafka on policy issue
 2. Deploy apis in kubernetes 
-    - [x]Basic deployment no ingress other than kubernetes service
+    - [x] Basic deployment no ingress other than kubernetes service
 3. Review 
     - [x] Enchance model for richness in biz and refactor
     - [x] fix issues 
@@ -27,18 +27,17 @@ Kubesure intents to build a _insuretech_ pay as you insurance product. Also, a s
 
 **0.2 features** 
  
-[] Create UI with micro web deployment  
-[] Logging with fluentd and elastic 
-[] Pull events to Kakfa for data analysis biz moments is TBD
-[X] API Exposure to world through Kube ingress 
-[] Fix defects
+1. Create UI with micro web deployment  
+2. Logging with fluentd and elastic 
+3. Pull events to Kakfa for data analysis biz moments is TBD
+4. API Exposure to world through Kube ingress 
+5. Fix defects
 
 **0.3 Features** 
 
-[] Deploy on kubernetes with a service mesh  
-[] Prepare helm charts
-[] CI CD Pipeline
-
+1. Deploy on kubernetes with a service mesh  
+2. Prepare helm charts
+3. CI CD Pipeline
 
 **0.4 Features**
 
