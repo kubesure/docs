@@ -2,12 +2,12 @@
 
 Why Kubesure?? For the lack of a better name and for the love of kubernetes. Project name will change until a cool sanskrit, greek or a latin name is christened. 
 
-Kubesure intents to build a _insuretech_ pay as you insurance product. Also, a stable Kubesure will be contributed to Kubernetes community as a real world example for learning. Pls join and spread knowledge. 
+Kubesure intents to build a _insuretech_ pay as you go insurance products. Also, a stable Kubesure will be contributed to Kubernetes community as a real world example for learning. Pls join innovate and spread knowledge. 
 
-
+Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
 **0.1 features**  
 
-1. create new business apis'for to buy esyhealth (stp) and esytravel (stp) product 
+1. create new business apis'for to buy esyhealth (stp) and esytravel (stp) product - 
    - [x] premium - Go + Redis - Rest/Json
    - [x] quote - Node + Mongo  - Rest/Json
    - [x] party - Go + Mongo - GRPC  
@@ -29,15 +29,15 @@ Kubesure intents to build a _insuretech_ pay as you insurance product. Also, a s
  
 1. Create UI with micro web deployment  
 2. Logging with fluentd and elastic 
-3. Pull events to Kakfa for data analysis biz moments is TBD
-4. API Exposure to world through Kube ingress 
-5. CI CD Pipeline
+3. Pull events to Kakfa for data analysis. Biz moments is TBD
+4. North-South API traffic to world through Kube ingress
+5. Helm charts
+6. CI CD Pipeline
 
 **0.3 Features** 
 
-1. Deploy on kubernetes with a service mesh  
-2. Prepare helm charts
+1. West-East traffic on a service mesh  
 
 **0.4 Features**
 
-1. Throw Enhance and Grow???
+1. Pay As you Go 
