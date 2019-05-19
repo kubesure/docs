@@ -21,14 +21,16 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
     - [x] Enchance model for richness in biz and refactor
     - [x] fix issues 
     - [x] Refactor repeat until all test pass 
-4. Document architecture, design and code
-5. Create build script for all go services
-6. Update install and releases
+4. Document 
+   - [ ] Architecture 
+   - [ ] Code
+5. Create makefile script for all services
+6. Update release
 
 **0.2 features** 
  
 1. Create UI with micro web deployment  
-2. Logging with fluentd and elastic 
+2. Log visibility with fluentd and elastic 
 3. Pull events to Kakfa for data analysis. Biz moments is TBD
 4. North-South API traffic to world through Kube ingress
 5. Helm charts
@@ -40,4 +42,4 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
 
 **0.4 Features**
 
-1. Pay As you Go 
+1. Pay As You Go model generation.
