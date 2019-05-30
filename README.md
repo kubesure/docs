@@ -26,7 +26,8 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
    - [ ] Architecture 
    - [ ] Code
 5. Create makefile script for all services
-6. Update release
+6. Helm charts
+7. Update release
 
 **0.2 features** 
  
@@ -34,7 +35,6 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
 2. Log visibility with fluentd and elastic 
 3. Pull biz events to Kakfa via Kafka Connect for data analysis. Biz moments is TBD
 4. North-South API traffic to world through Kube ingress
-5. Helm charts
 6. CI CD Pipeline
 
 **0.3 Features** 
