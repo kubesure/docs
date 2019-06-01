@@ -6,7 +6,9 @@ Kubesure intents to build a _insuretech_ pay as you go insurance products. Also,
 
 Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
 
-**0.1 features**  
+**0.1 features** https://github.com/kubesure/helm-charts/releases/tag/v0.1 
+
+
 
 1. Create new business apis' for to buy esyhealth (stp) and esytravel (stp) products - 
    - [x] premium - Go + Redis - Rest/Json
@@ -14,28 +16,37 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
    - [x] party - Go + Mongo - GRPC  
    - [x] receipt - Go + Mongo - Rest/Json
    - [x] policy - Go + Mysql - Rest/Json
-   - [ ] Gen Poilcy document - Kakfa Msg on policy issue
-   - [ ] Send communication SMS and Email (pdf) Kafka Msg on policy issue
 2. Deploy apis in kubernetes 
     - [x] Basic deployment no ingress other than kubernetes service
 3. Review 
     - [x] Enchance model for richness in biz and refactor
     - [x] fix issues 
     - [x] Refactor repeat until all test pass 
-4. Document 
-   - [ ] Architecture 
-   - [ ] Code
-5. Create makefile script for all services
-6. Helm charts
+5. Helm charts
 7. Update release
 
 **0.2 features** 
- 
-1. Create UI with micro web deployment  
-2. Log visibility with fluentd and elastic 
+
+1. Product features
+   - [ ] Gen Poilcy document on policy issue event
+   - [ ] Send communication SMS and Email (pdf) on policy issue 
+2. Mobile app
+   - [ ] Buy journey 
+   - [ ] Click Stream capture   
+2. Log visibility
+   - [X] Cluster level logging with fluentd and elasticsearch 
 3. Pull biz events to Kakfa via Kafka Connect for data analysis. Biz moments is TBD
 4. North-South API traffic to world through Kube ingress
+5. Makefile  
+   - [ ] Premium 
+   - [ ] Quote
+   - [ ] Party
+   - [ ] Receipt
+   - [ ] Policy      
 6. CI CD Pipeline
+7. Document 
+   - [ ] Architecture 
+   - [ ] Code
 
 **0.3 Features** 
 
