@@ -4,11 +4,9 @@ Why Kubesure?? For the lack of a better name and for the love of kubernetes. Pro
 
 Kubesure intents to build a _insuretech_ pay as you go insurance products. Also, a stable Kubesure will be contributed to Kubernetes community as a real world example for learning. Pls join innovate and spread knowledge. 
 
-Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
+Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
 **0.1 features** https://github.com/kubesure/helm-charts/releases/tag/v0.1 
-
-
 
 1. Create new business apis' for to buy esyhealth (stp) and esytravel (stp) products - 
    - [x] premium - Go + Redis - Rest/Json
@@ -36,7 +34,12 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
 2. Log visibility
    - [X] Cluster level logging with fluentd and elasticsearch 
 3. Pull biz events to Kakfa via Kafka Connect for data analysis. Biz moments is TBD
-4. North-South API traffic to world through Kube ingress
+4. North-South API traffic 
+   - [X] k8s Ingress
+   - [X] Ambassodor API gateway 
+   - [ ] Rate limits 
+   - [ ] Secure internet exposed API's
+   - [ ] API authentication via API gateway
 5. Makefile  
    - [ ] Premium 
    - [ ] Quote
@@ -50,8 +53,8 @@ Features 0.1 to 0.4 sets the basic platform for Pay As You Model.
 
 **0.3 Features** 
 
-1. West-East traffic on a service mesh  
-
+1. West-East traffic on a service mesh
+  
 **0.4 Features**
 
 1. Pay As You Go model generation.
