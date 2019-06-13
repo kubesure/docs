@@ -28,9 +28,6 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 1. Product features
    - [ ] Gen Poilcy document on policy issue event
    - [ ] Send communication SMS and Email (pdf) on policy issue 
-2. Mobile app
-   - [ ] Buy journey 
-   - [ ] Click Stream capture   
 2. Log visibility
    - [X] Cluster level logging with fluentd and elasticsearch 
 3. Pull biz events to Kakfa via Kafka Connect for data analysis. Biz moments is TBD
@@ -41,11 +38,11 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [ ] Secure internet exposed API's
    - [ ] API authentication via API gateway
 5. Makefile  
-   - [ ] Premium 
-   - [ ] Quote
-   - [ ] Party
-   - [ ] Receipt
-   - [ ] Policy      
+   - [X] Premium 
+   - [X] Quote
+   - [x] Party
+   - [x] Receipt
+   - [x] Policy      
 6. CI CD Pipeline
 7. Document 
    - [ ] Architecture 
@@ -54,7 +51,11 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 **0.3 Features** 
 
 1. West-East traffic on a service mesh
+2. Mobile app
+   - [ ] Buy journey 
+   - [ ] Click Stream capture   
   
 **0.4 Features**
 
 1. Pay As You Go model generation.
+
