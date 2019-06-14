@@ -2,7 +2,7 @@
 
 Why Kubesure?? For the lack of a better name and for the love of kubernetes. Project name will change until a cool sanskrit, greek or a latin name is christened. 
 
-Kubesure intents to build a _insuretech_ pay as you go insurance products. Also, a stable Kubesure will be contributed to Kubernetes community as a real world example for learning. Pls join innovate and spread knowledge. 
+Kubesure is an insuretech OSS platform which intends to build pay as you go insurance products. Also, a stable Kubesure will be contributed to Kubernetes community as a real world example for learning. Pls join innovate and spread knowledge. 
 
 Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
