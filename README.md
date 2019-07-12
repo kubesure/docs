@@ -35,7 +35,7 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 4. North-South API traffic 
    - [X] k8s Ingress
    - [X] Ambassodor API gateway
-   - [ ] Secure internet exposed API's
+   - [X] Secure internet exposed API's
    - [ ] API authentication via API gateway
 5. West-East traffic on a service mesh
    - [ ] Premium 
