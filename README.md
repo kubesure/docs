@@ -38,17 +38,17 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [X] Secure internet exposed API's
    - [ ] API authentication via API gateway
 5. West-East traffic on a service mesh
-   - [ ] Premium 
-   - [ ] Quote
-   - [ ] Party
+   - [X] Premium 
+   - [X] Quote
+   - [X] Party
 6. Makefile  
    - [X] Premium 
    - [X] Quote
    - [x] Party
    - [x] Receipt
    - [x] Policy
-   - [ ] Comms
-   - [ ] Publisher 
+   - [X] Comms
+   - [X] Publisher 
 8. CI CD Pipeline 
    - [ ] Premium
 7. Document 
