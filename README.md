@@ -50,7 +50,7 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [X] Comms
    - [X] Publisher 
 8. CI CD Pipeline 
-   - [ ] Premium
+   - [X] Premium
 7. Document 
    - [ ] Architecture 
    - [ ] Code
