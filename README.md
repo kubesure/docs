@@ -29,14 +29,14 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
 1. Product features
    - [X] Gen Poilcy document on policy issue event
-   - [ ] Send communication SMS and Email (pdf) on policy issue 
+   - [X] Send communication SMS and Email (pdf) on policy issue 
 2. Log visibility
    - [X] Cluster level logging with fluentd and elasticsearch 
 4. North-South API traffic 
    - [X] k8s Ingress
    - [X] Ambassodor API gateway
    - [X] Secure internet exposed API's
-   - [ ] API authentication via API gateway
+   - [X] API authentication via API gateway
 5. West-East traffic on a service mesh
    - [X] Premium 
    - [X] Quote
