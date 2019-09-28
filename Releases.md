@@ -1,6 +1,6 @@
 Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
-**0.1 features** https://github.com/kubesure/helm-charts/releases/tag/v0.1 
+**0.1 features** https://github.com/kubesure/helm-charts/releases/tag/v0.1-aplha
 
 1. Create new business apis' for to buy esyhealth (stp) and esytravel (stp) products - 
    - [x] premium - Go + Redis - Rest/Json
@@ -17,7 +17,7 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 5. - [x] Helm charts
 7. - [x] Update release
 
-**0.2 features** 
+**0.2 features** https://github.com/kubesure/helm-charts/releases/tag/v0.2-aplha
 
 1. Product features
    - [X] Gen Poilcy document on policy issue event
@@ -28,8 +28,8 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [X] k8s Ingress
    - [X] Ambassodor API gateway
    - [X] Secure internet exposed API's
-   - [X] API authentication via API gateway
-5. West-East traffic on a service mesh
+   - [ ] API authentication via API gateway
+5. West-East traffic on a service mesh - Linkered 2
    - [X] Premium 
    - [X] Quote
    - [X] Party
@@ -44,19 +44,29 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 8. CI CD Pipeline 
    - [X] Premium
 7. Document 
-   - [ ] Architecture 
-   - [ ] Code
+   - [X] Architecture 
+   - [X] Code
 
 **0.3 Features** 
 
-1. North-South API traffic 
+1. North-South API traffic - Istio service mesh
    - [ ] Rate limits 
-2. Mobile app
+   - [ ] Secure internet exposed API's
+   - [ ] API authentication via API gateway
+2. West-East traffic - Istio service mesh
+   - [ ] Inter servcie security 
+   - [ ] Loadbalancing
+   - [ ] 
+3. Mesh Visibility - Istio   
+4. Mobile app
    - [ ] Buy journey 
    - [ ] Click Stream capture
-3. Pull biz events to Kakfa via Kafka Connect for data analysis. Biz moments is TBD
-4. CI CD Pipeline 
-   - [ ] Pending services
+5. CI CD Pipeline 
+   - [ ] Pre-Prod
+   - [ ] Prod
+6. Setup Environment
+   - [ ] Pre-Prod
+   - [ ] Prod
   
 **0.4 Features**
 
