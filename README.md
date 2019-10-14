@@ -1,4 +1,4 @@
-# kubesure = *kube*netes + sure 
+# kubesure = *kuber*netes + sure 
 
 Why Kubesure?? For the lack of a better name and for the love of kubernetes. Project name will change until a cool sanskrit, greek or a latin name is christened. 
 
