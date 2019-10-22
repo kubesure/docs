@@ -6,13 +6,17 @@ Kubesure is an insuretech OSS platform which intends to build pay as you go insu
 
 ### Kubesure's service decompostion and interactions 
 
-![Alt text](kubesuremsa.png?raw=true "Kubesure Microservice Interactions")
+![Alt text](kubesuremsa.png?raw=true "Kubesure's service interactions")
 
 ### Kubesure's deployment architecture
 
-![Alt text](kubesure_architecture.png?raw=true "Kubesure Deployment Architecture")
+![Alt text](kubesure_architecture.png?raw=true "Kubesure's deployment Architecture")
 
-### Kubesure's Release plan and motivations
+### Kubesure's CI CD container pipleline
+
+![Alt text](kubsure_container_cicd.png?raw=true "Kubesure's container CICD")
+
+### Kubesure's release plan
 
 [Kubesure Releases](./Releases.md)
 
