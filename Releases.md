@@ -49,25 +49,22 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
 **0.3 Features** 
 
-1. North-South API traffic - Istio service mesh
+1. North-South API traffic - Linkerd + Ingress ?(Gloo / Ambassador)
    - [ ] Rate limits 
    - [ ] Secure internet exposed API's
    - [ ] API authentication via API gateway
-2. West-East traffic - Istio service mesh
-   - [ ] Inter servcie security 
-   - [ ] Loadbalancing
-   - [ ] 
-3. Mesh Visibility - Istio   
-4. Mobile app
+2. West-East traffic - Linkerd service mesh
+   - [ ] Inter service security 
+   - [ ] Loadbalancing 
+3. Mesh Visibility   
+4. Mobile app 
    - [ ] Buy journey 
    - [ ] Click Stream capture
 5. CI CD Pipeline 
-   - [ ] Pre-Prod
-   - [ ] Prod
+   - [ ] Pre-Prod 
 6. Setup Environment
-   - [ ] Pre-Prod
-   - [ ] Prod
-  
+   - [ ] Pre-Prod 
+   
 **0.4 Features**
 
-1. Pay As You Go model generation.
+1. Pay As You Go model generation
