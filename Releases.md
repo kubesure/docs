@@ -26,8 +26,8 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [X] Cluster level logging with fluentd and elasticsearch 
 4. North-South API traffic 
    - [X] k8s Ingress
-   - [X] Ambassodor API gateway
-   - [X] Secure internet exposed API's
+   - [X] Ambassodor API gateway - To be replaced by Gloo
+   - [X] Secure internet exposed API's 
    - [ ] API authentication via API gateway
 5. West-East traffic on a service mesh - Linkered 2
    - [X] Premium 
@@ -49,21 +49,21 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
 **0.3 Features** 
 
-1. North-South API traffic - Linkerd + Ingress ?(Gloo / Ambassador)
+1. North-South API traffic - Linkerd + Ingress ?(Gloo + KeyCloak)
    - [ ] Rate limits 
    - [ ] Secure internet exposed API's
    - [ ] API authentication via API gateway
-2. West-East traffic - Linkerd service mesh
+2. West-East traffic - (Isito or Consul)
    - [ ] Inter service security 
    - [ ] Loadbalancing 
-3. Mesh Visibility   
-4. Mobile app 
+3. Mesh Visibility (Isito or Consul)   
+4. Mobile app (React Native)
    - [ ] Buy journey 
    - [ ] Click Stream capture
-5. CI CD Pipeline 
-   - [ ] Pre-Prod 
-6. Setup Environment
-   - [ ] Pre-Prod 
+5. CI CD Pipeline (Argo CD)
+   - [x] Pre-Prod 
+6. Setup Environment (GKE + Argo CD)
+   - [x] Pre-Prod 
    
 **0.4 Features**
 
