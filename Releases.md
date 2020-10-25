@@ -49,14 +49,15 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 
 **0.3 Features** 
 
-1. North-South API traffic - Linkerd + Ingress ?(Gloo + KeyCloak)
-   - [ ] Rate limits 
-   - [ ] Secure internet exposed API's
-   - [ ] API authentication via API gateway
-2. West-East traffic - (Isito or Consul)
+1. North-South API traffic - Istio Ingress 
+   - [X] Rate limits - Not available in Istio
+   - [x] Secure internet exposed API's
+   - [ ] API authentication via API gateway - (Istio + KeyCloak)
+2. West-East traffic - (Isito)
    - [ ] Inter service security 
    - [ ] Loadbalancing 
-3. Mesh Visibility (Isito or Consul)   
+3. Mesh Visibility (Isito)
+   - [X] OOO Visibility
 4. Mobile app (React Native)
    - [ ] Buy journey 
    - [ ] Click Stream capture
