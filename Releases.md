@@ -26,9 +26,9 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [X] Cluster level logging with fluentd and elasticsearch 
 4. North-South API traffic 
    - [X] k8s Ingress
-   - [X] Ambassodor API gateway - To be replaced by Gloo
+   - [X] Ambassodor API gateway - To be replaced by Gloo - Replaced by Istio ingress
    - [X] Secure internet exposed API's 
-   - [ ] API authentication via API gateway
+   - [X] API authentication via API gateway
 5. West-East traffic on a service mesh - Linkered 2
    - [X] Premium 
    - [X] Quote
@@ -52,10 +52,10 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
 1. North-South API traffic - Istio Ingress 
    - [X] Rate limits - Not available in Istio
    - [x] Secure internet exposed API's
-   - [ ] API authentication via API gateway - (Istio + KeyCloak)
+   - [X] API authentication via API gateway - (Istio + KeyCloak)
 2. West-East traffic - (Isito)
-   - [ ] Inter service security 
-   - [ ] Loadbalancing 
+   - [X] Inter service security 
+   - [X] Loadbalancing 
 3. Mesh Visibility (Isito)
    - [X] OOO Visibility
 4. Mobile app (React Native)
