@@ -58,14 +58,15 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [X] Loadbalancing 
 3. Mesh Visibility (Isito)
    - [X] OOO Visibility
-4. Mobile app (React Native)
-   - [ ] Buy journey 
-   - [ ] Click Stream capture
-5. CI CD Pipeline (Argo CD)
+4. CI CD Pipeline (Argo CD)
    - [x] Pre-Prod 
-6. Setup Environment (GKE + Argo CD)
+5. Setup Environment (GKE + Argo CD)
    - [x] Pre-Prod 
    
 **0.4 Features**
 
-1. Pay As You Go model generation
+1. [ ] Pay As You Go business model generation
+2. Mobile app (React Native)
+   - [ ] Buy journey 
+   - [ ] Click Stream capture
+3. [ ] Kubesure-Controller
