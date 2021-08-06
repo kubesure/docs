@@ -18,6 +18,17 @@ kubectl create clusterrolebinding YOURNAME-cluster-admin-binding --clusterrole=c
 2. kubectl -n kube-system create serviceaccount tiller
 3. kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
 4. helm init --service-account tiller 
+
+## Install Bitnami Sealed Secrets
+
+1. Install Client 
+
+wget https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.9.2/kubeseal-linux-amd64 -O kubeseal
+sudo install -m 755 kubeseal /usr/local/bin/kubeseal
+
+2. Install Cluster Side Controller
+
+kubectl apply -f https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.9.2/controller.yaml
   
 ## Install Ambassador chart
 
@@ -70,3 +81,19 @@ argocd app create party \
   --revision preprod     
 
 argocd app sync party
+
+argocd app create receipt \
+  --repo https://github.com/kubesure/helm-charts.git \
+  --path receipt \
+  --dest-server https://kubernetes.default.svc \
+  --dest-namespace default \
+  --revision preprod     
+
+argocd app sync receipt
+
+helm install --name=mysql-policy
+
+export POLICY_PASSWORD=$(kubectl get secret --namespace default mysql-policy-pxc -o jsonpath="{.data.mysql-password}" | base64 --decode; echo)
+
+kubectl create secret generic policy-mysql-secret --from-literal=password=$POLICY_PASSWORD --dry-run -o yaml | kubeseal > policy-mysql-secrect.yaml
+

@@ -64,9 +64,9 @@ Features 0.1 to 0.3 sets the basic platform for Pay As You Model.
    - [x] Pre-Prod 
    
 **0.4 Features**
-
-1. [ ] Pay As You Go business model generation
-2. Mobile app (React Native)
+1. [ ] Write a gitbook for kubesure (API, Dev & Setup)
+2. [ ] Pay As You Go business model generation
+3. Mobile app (React Native)
    - [ ] Buy journey 
    - [ ] Click Stream capture
-3. [ ] Kubesure-Controller
+4. [ ] Kubesure-Controller
